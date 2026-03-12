@@ -23,13 +23,13 @@ body {
 
 /* The 0.6 Opacity Overlay */
 body::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6); 
-  backdrop-filter: blur(40px);
-  z-index: 1;
-  pointer-events: none; /* Allows clicking through the overlay to links/buttons */
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 68%);
+    backdrop-filter: blur(40px);
+    z-index: 1;
+    pointer-events: none;
 }
 p,h1,h2,h3,h4,h5{
    font-family: "Poppins", sans-serif !important;
